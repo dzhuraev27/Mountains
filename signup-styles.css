@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/26/05/06/mt-seoraksan-958642_1280.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  margin-left: 45%;
+  height: 100vh;
+}
+
+.signup-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.7);
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.signup-box h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 24px;
+}
+
+.signup-box .user-box {
+  position: relative;
+}
+
+.signup-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.signup-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.signup-box input:focus ~ label,
+.signup-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.signup-box button {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background: #03e9f4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.signup-box a {
+  color: #03e9f4;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+}
