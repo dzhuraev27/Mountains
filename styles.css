@@ -1,0 +1,241 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    color: #20496a;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Добавляет тень */
+    background: transparent; /* Сделать фон прозрачным */
+}
+
+#text {
+    text-align: center;
+}
+
+.center {
+    display: inline-block;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #20496a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Цвет при наведении */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', serif;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #20496a;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#top{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height:200px;
+    width: 100%;
+    background:linear-gradient(to top,#fff,transparent);
+    z-index: 1000;
+}
+#man{
+    top: inherit;
+    bottom: 0;
+}
+section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#text{
+    position: relative;
+    color:white;
+    font-size: 10rem;
+}
+#sec{
+    padding:100px;
+  padding-bottom:20px;
+}
+#sec h2{
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color:#20496a;
+    text-align: center;
+}
+
+#support h3 {
+    font-size: 1.8em; /* Задайте размер шрифта для заголовков h3 в секции */
+    color: #20496a; /* Задайте цвет текста для заголовков h3 в секции */
+    margin-bottom: 15px;
+    text-align: center;
+    }
+
+    #support p {
+        font-size: 1.2em; /* Задайте размер шрифта для параграфов в секции */
+        line-height: 1.6;
+        text-align: center; /* Задайте высоту строки для лучшей читаемости текста */
+    }
+
+#sec p{
+    font-size: 1.2rem;
+  line-height:2rem;
+  font-weight:300;
+    color:#20496a;
+}
+footer{
+  margin-top:30px;
+  display:flex;
+  padding:20px;
+  justify-content:space-evenly;
+  align-items:center;
+  background-color:#B0DFEA;
+}
+footer a{
+  color:#20496a;
+}
+footer a i{
+    transition:0.2s;
+}
+footer a:nth-of-type(3),footer a:nth-of-type(4), footer a:nth-of-type(5){
+font-size:1.3rem;}
+footer a i:hover{
+  transform:translateY(-10px);
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fde02f;
+}
+
+/*========================Nav Bar=========================*/
+.nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100%;
+  background:url('https://static.tumblr.com/94eb957a00fd03c0c2f7d26decd71578/u1rhacw/osAmyyh1q/tumblr_static_tumblr_static_gaussian_blur_gradient_desktop_1680x943_wallpaper-393751.jpg');
+  box-shadow: 3px 3px 10px lightslategray;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}
+body{background:#bdc3c7;line-height:1.5;font-family:sans-serif;text-transform:uppercase;font-size:16px;color:#fff}
+a{text-decoration:none;color:#fff}
+#header{background:#1E262D;width:100%;position:relative}
+#header:after{content:"";clear:both;display:block}
+.search{float:right;padding:30px}
+input{border:none;padding:10px;border-radius:20px}
+.logo{float:left;padding:26px 0 26px}
+.logo a{font-size:28px;display:block;padding:0 0 0 20px}
+nav{float:right;}
+nav>ul{float:left;position:relative}
+nav li{list-style:none;float:left}
+nav .dropdown{position:relative}
+nav li a{float:left;padding:35px}
+nav li a:hover{background:#2C3E50}
+nav li ul{display:none}
+nav li:hover ul{display:inline}
+nav li li{float:none}
+nav .dropdown ul{position:absolute;left:0;top:100%;background:#fff;padding:20px 0;border-bottom:3px solid #34495e}
+nav .dropdown li{white-space:nowrap}
+nav .dropdown li a{padding:10px 35px;font-size:13px;min-width:200px}
+nav .mega-dropdown{width:100%;position:absolute;top:100%;left:0;background:#fff;overflow:hidden;padding:20px 35px;border-bottom:3px solid #34495e}
+nav li li a{float:none;color:#333;display:block;padding:8px 10px;border-radius:3px;font-size:13px}
+nav li li a:hover{background:#bdc3c7;background:#FAFBFB}
+.mega-col{width:25%;float:left}
+#menu-icon{position:absolute;right:0;top:50%;margin-top:-12px;margin-right:30px;display:none}
+#menu-icon span{border:2px solid #fff;width:30px;margin-bottom:5px;display:block;-webkit-transition:all .2s;transition:all .1s}
+@media only screen and (max-width: 1170px) {
+  nav >ul>li >a{padding:35px 15px}
+}
+@media only screen and (min-width: 960px) {
+  nav{display:block!important}
+}
+@media only screen and (max-width: 959px) {
+  nav{display:none;width:100%;clear:both;float:none;max-height:400px;overflow-y:scroll}
+  #menu-icon{display:inline;top:45px;cursor:pointer}
+  #menu-icon.active .first{transform:rotate(45deg);-webkit-transform:rotate(45deg);margin-top:10px}
+  #menu-icon.active .second{transform:rotate(135deg);-webkit-transform:rotate(135deg);position:relative;top:-9px;}
+  #menu-icon.active .third{display:none}
+  .search{float:none}
+  .search input{width:100%}
+  nav{padding:10px}
+  nav ul{float:none}
+  nav li{float:none}
+  nav ul li a{float:none;padding:8px;display:block}
+  #header nav ul ul{display:block;position:static;background:none;border:none;padding:0}
+  #header nav a{color:#fff;padding:8px}
+  #header nav a:hover{background:#fff;color:#333;border-radius:3px}
+  #header nav ul li li a:before{content:"- "}
+  .mega-col{width:100%}
+}
