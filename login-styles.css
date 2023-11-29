@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://a.cdn-hotels.com/gdcs/production129/d23/0558c5a3-0a03-45fd-826c-4d5ae3e49aaa.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  margin-left: 45%;
+  height: 100vh;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.7);
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 24px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box input:focus ~ label,
+.login-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  background: #03e9f4;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login-box a {
+  color: #03e9f4;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+}
